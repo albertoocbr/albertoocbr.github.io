@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+ 	padding: 0;
+}
+body {
+  background:#333 url("http://www.jmcamarket.com/materialize/img/marketylogo.png");
+  background-size: cover;
+	font-family: "Roboto","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif,aclonica;
+    font-size:14px;
+	color:white;
+}
+.h3 {
+  font-family: "aclonica";
+  font-size; 120px;
+  color: orange;
+}
+.background, .backdrop {
+	
+	position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+	background-size: cover;
+}
+.backdrop {
+	background: #333333;
+	filter: alpha(opacity=90);
+	opacity: .8;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+.background {
+	background-image: url('img/fondologin.webp');
+}
+nav {
+    right: 2%;
+
+    position: relative;
+background-color: transparent;
+    
+
+
+}
+
+nav a {
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    float:right;
+font-size: 120%;
+}
+
+
+
+#logo {
+    width: 60px;
+    height: 70px;
+    float: left;
+    padding: 10px;
+    position: relative;
+    
+}
+

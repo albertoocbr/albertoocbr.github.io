@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="login-css.css">
+</head>
+<body>
+   <div class="background"></div>
+
+
+<div class="page">
+  <div class="container">
+    <div class="formulario">
+      <!-- HEADER -->
+      <div id="cerrar" onclick="location.href='pagweb.html';">&#10006;</div>
+      <div class="header">
+        <div class="logo">
+          <div class="logo-area">
+            <span class="red"></span><span class="big">Foto de perfil</span>
+          </div>
+        </div>
+        <h3>Asocia tu cuenta</h3>
+      </div>
+      <!-- FORMULARIO -->
+      <form method="post" action="" class="form">
+       
+        <div class="input">
+          <i class="fa fa-envelope icone"></i>
+          <input type="email" name="email" placeholder="Email o nombre de usuario">
+        </div>
+        <div class="input">
+          <i class="fa fa-lock icone"></i>
+          <input type="password" id="login-password" name="password" placeholder="Contraseña">
+          <i id="show-password" class="fa fa-eye icone"></i>
+        </div>
+        <div class="remember">
+          <input type="checkbox" name="rememberme" id="rememberme">
+          <label for="rememberme"><span>Recordar contraseña</span></label>
+          <a href="#">¿Contraseña perdida?</a> 
+        </div>
+        <input type="submit" name="login" value="Login" class="btn btn-login">
+        <a href="#" class="btn btn-registrar">Register</a>
+      </form>
+      <!-- SEPARADOR -->
+      <div class="separator">
+        <span class="separator-text">OUR</span>
+      </div>
+      <!-- SOCIAL -->
+      <div class="socmed-login">
+        <a href="#facebook" class="btn btn-face">
+          <i class="fab fa-facebook-f btn-icone"></i>
+          <span class="xs-hidden">Login con Facebook</span>
+          <span class="xs-show">Facebook</span>
+        </a>
+        <a href="#g-plus" class="btn btn-google">
+        <i class="fab fa-google btn-icone"></i>
+        <span class="xs-hidden">Login con Google</span>
+        <span class="xs-show">Google</span>
+      </a>
+      </div>
+    </div>
+    <p class="attrib">&copy; 2022 Alberto Cabrera</p>
+  </div>
+</div>
+
+<!-- Font Awesome -->
+<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+    <script src="js-login.js"></script>
+</body>
+</html>
