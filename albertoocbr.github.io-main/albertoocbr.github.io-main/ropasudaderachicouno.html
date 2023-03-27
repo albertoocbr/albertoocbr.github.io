@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="chicauno.css">
+
+
+</head>
+
+<body>
+
+    <header>
+        <img id="logo" src="img/logo.jpg">
+        <nav>
+           <a id="botontres" href="login-html.html"> LOGIN </a>
+            <a id="boton" href="index.html"> HOME </a>
+            <a id="boton" href="pagwebproductos.html"> PRODUCTS </a>
+            <a id="botontres"  href="about-html.html"> ABOUT </a>
+            <a id="botoncuatro" href="contacta-html.html"> CONTACT </a>
+        
+        </nav>
+    </header>
+    <div id="fijo"> <a href="https://www.instagram.com/skateropaycomplementos/" target="_blank"><img src="img/instagram.svg"></a>
+        <a href="https://www.tiktok.com/@skateropaycomplementos" target="_blank"><img src="img/tiktok.svg"></a>
+    </div>
+
+    <div id="cuadradomujer">
+        <p>SUDADERAS</p>
+    </div>
+    <div>
+
+        <div class="cajaropa"></div>
+
+
+        <div class="dropdown">
+            <div class="accordion-body">
+                <div class="accordion">
+
+                    <hr>
+                    <div class="container">
+                        <div class="label">ROPA</div>
+                        <a href=ropasudaderachicouno.html>
+                            <div class="content">Sudaderas</div>
+                        </a>
+                       <a href="chaquetachicouno.html"> <div class="content">Chaquetas</div></a>
+                        <div class="content">Pantalones</div>
+                        <div class="content">Camisetas</div>
+
+                    </div>
+
+
+                    <hr>
+                    <div class="container">
+                        <div class="label">CALZADO</div>
+                        <div class="content">Zapatillas</div>
+                        <div class="content">Deportivas</div>
+                        <div class="content">Botines</div>
+                        <div class="content">Sandalias</div>
+                    </div>
+                    <hr>
+                    <div class="container">
+                        <div class="label">ACCESORIOS</div>
+                        <div class="content">Gorras y gorros</div>
+                        <div class="content">Cinturones</div>
+                        <div class="content">Bisuteria</div>
+                        <div class="content">Calcetines</div>
+                        <div class="content">
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <script>
+            const accordion = document.getElementsByClassName('container');
+
+            for (i = 0; i < accordion.length; i++) {
+                accordion[i].addEventListener('click', function() {
+                    this.classList.toggle('active')
+                })
+            }
+        </script>
+
+    </div>
+
+
+    <div id="cajaropa">
+        <div id="sudaderas">
+
+            <div>
+                <h6>22.55€</h6>
+               <a href="Chicosudaderauno.html"><img class="imagenesropa" src="img/sud.jpg" onmouseover="this.src='img/sudazul.webp'" onmouseout="this.src='img/sud.jpg'"></a> 
+                <h5 id="simpleamarilla">SUDADERA AZUL CON ESTAMPADO</h5>
+            </div>
+
+            <div>
+                <h6>22.55€</h6>
+                <img class="imagenesropa" src="img/sud.webp" onmouseover="this.src='img/sudgris.webp'" onmouseout="this.src='img/sud.webp'">
+                <h5 id="amarillaestampado">SUDADERA MARRON CON ESTAMPADO</h5>
+            </div>
+            <div>
+                <h6>22.55€</h6>
+                <img class="imagenesropa" src="img/suda.jpg" onmouseover="this.src='img/sudanegra.jpg'" onmouseout="this.src='img/suda.jpg'">
+                <h5 id="negrasinmangas">SUDADERA NEGRA NEW YORK</h5>
+            </div>
+        </div>
+
+        <div id="sudaderasdos">
+            <div>
+                <h6>22.55€</h6>
+                <img class="imagenesropados" src="img/sud5.jpg" onmouseover="this.src='img/sudallamas.webp'" onmouseout="this.src='img/sud5.jpg'">
+                <h5 id="simpleamarillas">SUDADERA NEGRA CON LLAMAS</h5>
+            </div>
+            <div>
+                <h6>22.55€</h6>
+                <img class="imagenesropados" src="img/sud6.webp" onmouseover="this.src='img/sudanegraconletras.webp'" onmouseout="this.src='img/sud6.webp'">
+                <h5 id="amarillaestampado">SUDADERA NEGRA SIMPLE</h5>
+            </div>
+            <div>
+                <h6>22.55€</h6>
+                <img class="imagenesropados" src="img/sud7.jpg" onmouseover="this.src='img/sudatrap.webp'" onmouseout="this.src='img/sud7.jpg'">
+                <h5 id="negrasinmangas">SUDADERA NEGRA THRASHER</h5>
+
+            </div>
+
+        </div>
+
+        <div id="vermas">
+            <button onclick="">Ver mas</button>
+        </div>
+    </div>
+    
+
+
+
+</body></html>

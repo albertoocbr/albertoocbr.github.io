@@ -1,0 +1,201 @@
+body {
+
+    font-family: sans-serif;
+    margin: 0;
+    background-color: black;
+
+}
+
+
+nav {
+    right: 2%;
+    top: 2%;
+    position: absolute;
+
+
+
+}
+
+nav a {
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: 400;
+    padding-top: 2%;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+#chicachico {
+    display: flex;
+    width: 100%;
+    text-align: center;
+margin-top: -44px
+}
+
+#chicachico img {
+    width: 856px;
+    height: 640px;
+    
+}
+
+#letrasmovi {
+    color: white;
+}
+
+
+svg.svgwave {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+
+
+}
+
+
+
+svg.svgwave text {
+    font-size: 30px;
+    fill: white;
+    color: white;
+    font-weight: 700;
+    
+
+}
+
+#svgeditor {
+    display: flex;
+    position: absolute;
+    margin-top: -50px
+}
+
+#imagenskatedos {
+    position: absolute;
+    height: 540px;
+    padding-top: 2%;
+
+}
+
+#boton {
+    overflow: hidden;
+}
+
+.cajas {
+    background: transparent;
+    width: 321px;
+    height: 135px;
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 270px;
+    backdrop-filter: blur(10px);
+    color: white;
+    outline: none;
+}
+
+h1 {
+    padding-top: 1%;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+
+
+
+}
+.cajas :hover {
+    background-color: white;
+    color: black;
+    
+}
+
+.cajas a {
+    color:white;
+    text-decoration: none;
+
+}
+
+#caja {
+    background: transparent;
+    width: 321px;
+    height: 125px;
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 810px;
+    backdrop-filter: blur(10px);
+    color: white;
+}
+
+
+#caja:hover {
+    background-color: white;
+    color: black;
+    position: absolute;
+
+}
+
+
+
+/* Estilos foto chica y boton */
+
+
+.chica {
+    background-image: url(img/chicaskate.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: grid;
+    padding: 15% 15%;
+    width: 321px;
+    height: 135px;
+    margin-top:-11px;
+}
+
+.botongrande {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    backdrop-filter: blur(10px);
+    padding: 14%;
+    text-align: center;
+    
+}
+
+.botongrande:hover{
+    color:black;
+    background-color: white;
+}
+
+.chico {
+    background-image: url(img/skaters.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: grid;
+    padding: 15% 15%;
+    width: 377px;
+    height: 136px;
+    margin-top: -18px;
+    margin-left: 139px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

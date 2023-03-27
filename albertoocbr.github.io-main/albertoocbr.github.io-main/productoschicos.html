@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="editorchico.css">
+
+</head>
+
+<body>
+
+    <header>
+        <img id="logo" src="img/logo.jpg">
+        <nav>
+           <a id="botontres" href="login-html.html"> LOGIN </a>
+            <a id="boton" href="index.html"> HOME </a>
+            <a id="boton" href="pagwebproductos.html"> PRODUCTS </a>
+            <a id="botontres"  href="about-html.html"> ABOUT </a>
+            <a id="botoncuatro" href="contacta-html.html"> CONTACT </a>
+            
+        </nav>
+    </header>
+    <div id="fijo"> <a href="https://www.instagram.com/skateropaycomplementos/" target="_blank"><img src="img/instagram.svg"></a>
+        <a href="https://www.tiktok.com/@skateropaycomplementos" target="_blank"><img src="img/tiktok.svg"></a>
+    </div>
+
+    <div id="cuadradomujer">
+
+        <p>ROPA HOMBRE</p>
+
+
+    </div>
+    <div>
+
+        <div class="cajaropa"></div>
+        <img id="imagenmujertendencia" src="img/chicotendenciasdos.png">
+
+        <h1 class="tendenciasinvierno">TENDENCIAS</h1>
+        <div class="dropdown">
+            <div class="accordion-body">
+                <div class="accordion">
+
+                    <hr>
+                    <div class="container">
+                        <div class="label">ROPA</div>
+                        <a href="ropasudaderachicouno.html">
+                            <div class="content">Sudaderas</div>
+                        </a>
+                        <a href="chaquetachicouno.html"> <div class="content">Chaquetas</div></a>
+                        <div class="content">Pantalones</div>
+                        <div class="content">Camisetas</div>
+
+                    </div>
+
+
+                    <hr>
+                    <div class="container">
+                        <div class="label">CALZADO</div>
+                        <div class="content">Zapatillas</div>
+                        <div class="content">Deportivas</div>
+                        <div class="content">Botines</div>
+                        <div class="content">Sandalias</div>
+                    </div>
+                    <hr>
+                    <div class="container">
+                        <div class="label">ACCESORIOS</div>
+                        <div class="content">Gorras y gorros</div>
+                        <div class="content">Cinturones</div>
+                        <div class="content">Bisuteria</div>
+                        <div class="content">Calcetines</div>
+                        <div class="content">
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            const accordion = document.getElementsByClassName('container');
+
+            for (i = 0; i < accordion.length; i++) {
+                accordion[i].addEventListener('click', function() {
+                    this.classList.toggle('active')
+                })
+            }
+        </script>
+
+    </div>
+</body></html>
