@@ -243,7 +243,7 @@ header {
 }
 
 .imageneschicos img {
-    width: 400px;
+    width: 50%;
 
     margin-top: 2%;
     margin-left: 370px;
@@ -505,9 +505,6 @@ footer {
     margin-top: 30px;
 }
 
-
-
-
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500);
 
 body {
@@ -527,7 +524,6 @@ body {
     margin: 0;
 }
 
-/* CSS TOP */
 #top {
     width: 100%;
     margin: 0 auto;
@@ -573,14 +569,12 @@ body {
     color: #E60101;
 }
 
-/* CSS MID */
 #mid {
     width: 85%;
     min-height: 300px;
     margin: 0 auto;
 }
 
-/* CSS SEPARADOR */
 #cuerpo .separador {
     width: 100%;
     height: 20px;
@@ -768,3 +762,5 @@ body {
     margin-top:-14%;
     position: absolute;
 }
+
+menu media 
